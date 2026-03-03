@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Inventario {
-//atributo privado 
 	/// en primero queria crear un ArrayList<Mascotas>
 	// private ArrayList<Mascotas> listaMacotas= new ArrayList<>();
 	private List<Mascotas> ListaMascotas;
@@ -32,6 +31,12 @@ public class Inventario {
 			System.out.println(m.getNombreI());
 		}
 	}
-	// imprimir solo los nombres
 
+	// imprimir solo los nombres
+	public void imprimirPerros() {
+		for (Mascotas m : ListaMascotas) {
+			if (m instanceof Perro)
+				System.out.println(m.getNombreI());
+		}
+	}
 }
