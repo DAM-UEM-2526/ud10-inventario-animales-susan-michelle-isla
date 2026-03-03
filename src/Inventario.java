@@ -1,6 +1,7 @@
+
 import java.util.ArrayList;
 import java.util.List;
-
+//@autor:Susan isla isla
 public class Inventario {
 	/// en primero queria crear un ArrayList<Mascotas>
 	// private ArrayList<Mascotas> listaMacotas= new ArrayList<>();
@@ -21,7 +22,7 @@ public class Inventario {
 	}
 
 	// metodo para insertar eliminar animlaes
-	public void eliminarMascota(String nombreI) {
+	public void eliminarMascota(Mascotas nombreI) {
 		ListaMascotas.remove(nombreI);
 	}
 
