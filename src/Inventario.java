@@ -16,11 +16,20 @@ public class Inventario {
 	}
 	
 	//metodo para insertar animales
+	public void anyadirMascota(Mascotas a) {
+		ListaMascotas.add(a);
+	}
 	
 	//metodo para insertar eliminar animlaes
-	
+	public void eliminarMascota(String nombreI) {
+		ListaMascotas.remove(nombreI);
+	}
 	//imprimir los nombres de los animales
-	
-	
+	public void imprimirTodos() {
+		for (Mascotas m : ListaMascotas) {
+			System.out.println(m.getNombreI());
+		}
+	}
+	//
 	
 }
