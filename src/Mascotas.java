@@ -6,14 +6,14 @@ public abstract class Mascotas {
 	protected String estado;
 	protected String fechaNacimiento;
 
-	//constructores 
+	// constructores
 	public Mascotas(String nombreI, int edad, String estado, String fechaNacimiento) {
 		this.nombreI = nombreI;
 		this.edad = edad;
 		this.estado = estado;
 		this.fechaNacimiento = fechaNacimiento;
 	}
-	//getters necesarios 
+	// getters necesarios
 
 	public String getNombreI() {
 		return nombreI;
@@ -30,5 +30,5 @@ public abstract class Mascotas {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
-	
-	}
+
+}
